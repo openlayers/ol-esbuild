@@ -1,4 +1,4 @@
-# OpenLayers + Rollup
+# OpenLayers + esbuild
 
 This example demonstrates how the [`ol` package](https://www.npmjs.com/package/ol) can be used with [esbuild](https://esbuild.github.io/).
 
