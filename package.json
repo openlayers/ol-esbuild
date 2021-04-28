@@ -9,6 +9,6 @@
     "esbuild": "^0.11.16"
   },
   "dependencies": {
-    "ol": "^6.5.0"
+    "ol": "^6.5.1-module.2"
   }
 }
