@@ -1,9 +1,10 @@
 {
   "name": "ol-esbuild",
   "version": "1.0.0",
-  "description": "Example using OpenLayers with",
+  "description": "Example using OpenLayers with esbuild",
   "scripts": {
-    "build": "esbuild main.js --bundle --minify --sourcemap --outfile=bundle.js"
+    "start": "esbuild main.js --bundle --servedir=dist --sourcemap --outfile=dist/bundle.js",
+    "build": "esbuild main.js --bundle --minify --sourcemap --outfile=dist/bundle.js"
   },
   "devDependencies": {
     "esbuild": "^0.12.9"

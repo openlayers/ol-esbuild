@@ -1,20 +1,18 @@
 # OpenLayers + esbuild
 
-This example demonstrates how the [`ol` package](https://www.npmjs.com/package/ol) can be used with [esbuild](https://esbuild.github.io/).
+This example demonstrates how the `ol` package can be used with [esbuild](https://esbuild.github.io/).
 
-Clone the project.
+To get started, run the following (requires Node 12+):
 
-    git clone git@github.com:openlayers/ol-esbuild.git
+    npx create-ol-app my-app --template esbuild
 
-Install the project dependencies.
+Then change into your new `my-app` directory and start a development server (available at http://127.0.0.1:8000/):
 
-    cd ol-esbuild
-    npm install
+    cd my-app
+    npm start
 
-Create a bundle for the browser.
+To generate a build ready for production:
 
     npm run build
 
-Open `index.html` to see the result.
-
-    open index.html
+Then deploy the contents of the `dist` directory to your server.
