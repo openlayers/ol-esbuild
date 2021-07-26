@@ -7,7 +7,7 @@
     "build": "esbuild main.js --bundle --minify --sourcemap --outfile=dist/bundle.js"
   },
   "devDependencies": {
-    "esbuild": "^0.12.14"
+    "esbuild": "^0.12.16"
   },
   "dependencies": {
     "ol": "^6.5.0"
