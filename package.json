@@ -10,6 +10,6 @@
     "esbuild": "^0.13.4"
   },
   "dependencies": {
-    "ol": "^6.8.1"
+    "ol": "latest"
   }
 }
